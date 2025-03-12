@@ -14,7 +14,7 @@
 	<groupId>dev.ikm.jpms</groupId>
 	<artifactId>javax.inject</artifactId>
 	<packaging>jar</packaging>
-	<version>1-r5-AR-299</version>
+	<version>1-r5</version>
 
 	<properties>
 		<!-- change release here-->
