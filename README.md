@@ -23,7 +23,7 @@ Add the following dependency to your pom.xml:
 
 Add the following dependency to your build.gradle:
 ```groovy
-implementation 'dev.ikm.jpms:antlr4-runtime:${latest-jpms-javax-inject-version}'
+implementation 'dev.ikm.jpms:javax-inject:${latest-jpms-javax-inject-version}'
 ```
 
 In your module descriptor (module-info.java), declare the dependency on the jpms-javax-inject module:
