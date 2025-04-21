@@ -23,19 +23,19 @@ Add the following dependency to your pom.xml:
 
 Add the following dependency to your build.gradle:
 ```groovy
-implementation 'dev.ikm.jpms:javax-inject:${latest-jpms-javax-inject-version}'
+implementation 'dev.ikm.jpms:javax.inject:${latest-jpms-javax-inject-version}'
 ```
 
 In your module descriptor (module-info.java), declare the dependency on the jpms-javax-inject module:
 
 ```java
 module your.module.name {
-    requires dev.ikm.jpms.activej.bytebuf;
+    requires dev.ikm.jpms.javax.inject;
 }
 ```
 
 
 ## Issues and Contributions
-Technical and non-technical issues can be reported to the [Issue Tracker](https://github.com/ikmdev/javax-inject/issues).
+Technical and non-technical issues can be reported to the [Issue Tracker](https://github.com/ikmdev/jpms-javax-inject/issues).
 
 Contributions can be submitted via pull requests. Please check the [contribution guide](doc/how-to-contribute.md) for more details.
