@@ -16,7 +16,7 @@ Add the following dependency to your pom.xml:
 ```xml
 <dependency>
     <groupId>dev.ikm.jpms</groupId>
-	<artifactId>javax-inject</artifactId>
+	<artifactId>javax.inject</artifactId>
     <version>${latest-jpms-javax-inject-version}</version>
 </dependency>
 ```
